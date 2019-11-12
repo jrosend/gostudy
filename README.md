@@ -1,1 +1,1 @@
-"# go study" 
+# go study
