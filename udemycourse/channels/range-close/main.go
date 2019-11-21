@@ -15,6 +15,7 @@ func main() {
 }
 
 func send(channel chan<- int) {
+
 	for i := 0; i < 100; i++ {
 		channel <- i
 	}

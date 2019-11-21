@@ -14,6 +14,7 @@ func main() {
 }
 
 func receive(even, odd, quit <-chan int) {
+
 	for {
 		select {
 		case v, _ := <-even:
